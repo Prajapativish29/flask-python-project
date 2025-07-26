@@ -1,0 +1,11 @@
+# MongoDB Atlas Configuration
+# Copy this file to .env and replace with your actual credentials
+
+# Your complete MongoDB connection string
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/<dbname>?retryWrites=true&w=majority
+
+# Database name (optional, defaults to "mydb")
+MONGO_DB=mydb
+
+# Collection name (optional, defaults to "users")
+MONGO_COLLECTION=users 
